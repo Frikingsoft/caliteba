@@ -1,0 +1,185 @@
+
+
+.nav-link {
+    color: grey;
+}
+
+.navbar a:hover {
+    color: #2b519e;
+}
+
+.navbar-marca {
+    color: #4060a0;
+    padding: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: 'Calibri', 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+}
+
+.marca-rojo {
+    color: red;
+    text-transform: lowercase;
+    font-size: 1.15rem;
+}
+
+hr.divider {
+    height: 0.1rem;
+    max-width: 80%;
+    margin: 1.5rem auto;
+    background-color: white;
+    opacity: 0.5;
+}
+
+.hrborder {
+    width: 80%;
+    text-align: center;
+    justify-content: center;
+}
+
+.head1 {
+    width: 100%;
+    height: 900px;
+}
+.cabe {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 450px;
+    background-image: url(/fotos/covid-19-vaccine-1500x856-blur.jpg);
+    color: white;
+    font-size: 2rem;
+    
+}
+.shadow-text {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.cabe1 {
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 450px;
+    background-image: url(/fotos/header42.jpg);
+    background-position: center;
+    font-size: 2rem;
+}
+
+#nosotros {
+    background-color: #4060a0;
+}
+#cv {
+    background-color: #4060a0;
+}
+#contacto {
+    background-color: #212529;
+}
+.encabezado-seccion {
+    padding-top: 40px;
+}
+
+.subtexto {
+    color: grey;
+    font-size: 0.87rem;
+}
+
+.grilla {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.portfolio-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%; 
+    height: 100%; 
+    text-align: center;
+}
+.col-emp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%; 
+    width: 100%;  
+}
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.formulario {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    color: white;
+    margin:  0 auto;
+    width: 60%;
+}
+
+.form-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.form-info label {
+    flex: 1;
+    margin-right: 10px;
+}
+.form-info input[type="text"],
+.form-info input[type="email"],
+.form-info input[type="file"] {
+    flex: 2;
+}
+.form-info input[type="file"] {
+    border: none;
+}
+.form-info button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    border-color: black;
+}
+/* .btn:hover {
+    background-color: #4060a0; 
+} */
+.btn a{
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 1.5em;
+    font-weight: 400;
+    color: #4060a0;
+}
+.btn a:hover{
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .formulario {
+        padding: 10px;
+    }
+
+    form {
+        width: 100%;
+        max-width: 100%;
+    }
+}
+
+
+@media screen and (max-width:1000px){
+    .grilla{
+        width: 95%;
+    }
+}
+
+@media screen and (max-width:700px){
+    .grilla{
+        width: 90%;
+    }
+    .contenedor-imagenes .col-emp{
+        width: 48%;
+    }
+}
